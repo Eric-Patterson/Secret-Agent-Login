@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #03045e;
+}
+.container{
+	margin:0 auto;
+	background:#cbf3f0;
+    padding:2.5rem;
+    border-radius: 25px;
+    width:35%;
+}
+fieldset{
+    border: 0;
+}
+#firstForm, #secondForm{
+  background: linear-gradient(
+    to left top,
+    #ade8f4,
+    #90e0ef
+  );
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  font-size:18px;
+  
+}
+input, select, textarea{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+#codeName, #password{
+    border: 2px solid #03045e;
+    border-radius: 4px;
+    background-color: #0096c7;
+    display: inline-block;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+#login {
+    background-color: white;
+    border: 2px solid #008CBA;
+    border-radius: 11px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    width: 30%;
+}
+#login:hover{
+    background-color: #008CBA;
+    color: white;
+}
+p{
+font-size: 20px;
+}
+a{
+    text-decoration:none;
+    color: red;
+}
+  
+ 
